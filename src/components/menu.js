@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 
 class Menu extends React.Component {
@@ -10,7 +10,7 @@ class Menu extends React.Component {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/work">Work</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/hobbies">Todos</Link></li>
+          <li><Link to="/todos">Todos</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/libraries">Libraries</Link></li>

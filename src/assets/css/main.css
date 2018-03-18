@@ -1618,3 +1618,33 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+		/* Todo */
+
+		.todo {
+
+		}
+
+		.form-add-todo {
+			display: flex;
+		}
+
+		.form-add-todo .form-item {
+			width: 60%;
+			margin-right: 10px;
+		}
+
+		.todo__wrap > button {
+			margin-bottom: 30px;
+		}
+
+		.todo__item {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
+		}
+
+		a {
+			cursor: pointer;
+		}

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 
-class Footer extends React.Component {
+class Footer extends Component {
   render() {
     return (
       <footer id="footer">
-        <p class="copyright">&copy; 2018, Develop by BienVu</p>
+        <p className="copyright">&copy; 2018, Develop by BienVu</p>
       </footer>
     )
   }
