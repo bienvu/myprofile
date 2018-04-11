@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import introImage from '../images/bg-home.jpg';
+import introImage from '../assets/images/bg-home.jpg';
 import Menu from './menu';
 
 class About extends Component {

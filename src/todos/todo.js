@@ -30,8 +30,7 @@ class Todo extends Component {
     return (
       <div>
         <article id="todo">
-          <h2 className="major">Todo</h2>
-          <p>Welcome to my todo list, This todo created by react js and redux.</p>
+          <h2 className="major">Todo</h2> 
           <div className="todo__wrap">
             <TodoForm handleAdd={this.addTodo.bind(this)}/>
             {this.props.todoList.map((e,i) => <TodoItem index={i} handleRemove={this.remove.bind(this)} key={i}>{e}</TodoItem>)}

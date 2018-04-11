@@ -1,5 +1,5 @@
 import React from 'react';
-import myPicture from '../images/my-picture.jpg';
+import myPicture from '../assets/images/my-picture.jpg';
 import Menu from '../components/menu';
 
 class Header extends React.Component {
